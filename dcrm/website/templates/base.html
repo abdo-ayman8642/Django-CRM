@@ -34,5 +34,12 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Add this JavaScript code to make the alert disappear after 5 seconds (5000 milliseconds) -->
+    <script>
+      setTimeout(function () {
+        document.querySelector(".alert").remove(); // Remove the alert from the DOM
+      }, 2000); // 5000 milliseconds = 5 seconds
+    </script>
   </body>
 </html>
